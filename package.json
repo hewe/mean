@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "fun project following node.js pluralsight tutorial",
   "main": "server.js",
-  "repository": "",
-  "author": {
-    "name": "Weiping He",
-    "email": "weipingx.he@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hewe/mean.git"
   },
+  "author": "Weiping He <weipingx.he@gmail.com>",
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
@@ -19,6 +19,16 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-nodemon": "^0.3.0"
-  }
+    "grunt-concurrent": "^1.0.0",
+    "grunt-nodemon": "^0.3.0",
+    "grunt-shell": "^1.4.21"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hewe/mean/issues"
+  },
+  "homepage": "https://github.com/hewe/mean"
 }
